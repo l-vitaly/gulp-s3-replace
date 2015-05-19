@@ -1,7 +1,7 @@
 {
   "name": "gulp-s3-replace",
-  "version": "0.1.0",
-  "description": "Upload files to Amazon S3 of the img tag and replaces the url for gulp 3",
+  "version": "0.1.2",
+  "description": "Upload files to Amazon S3 of the IMG, A, LINK and SCRIPT tags and replaces the url for gulp 3.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -12,6 +12,10 @@
     "Upload",
     "Replace"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vlobchuk/gulp-s3-replace.git"
+  },
   "author": "Vitaly Lobchuk <vn.lobchuk@gmail.com>",
   "license": "MIT",
   "dependencies": {
