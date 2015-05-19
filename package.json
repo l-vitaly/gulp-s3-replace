@@ -1,0 +1,37 @@
+{
+  "name": "gulp-s3-replace",
+  "version": "0.1.0",
+  "description": "Loader local image files from img tags on Amazon S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Amazon",
+    "S3",
+    "Upload",
+    "Replace"
+  ],
+  "author": "Vitaly Lobchuk <vn.lobchuk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "s3": "^4.4.0",
+    "through2": "^0.6.5",
+    "extend": "^2.0.1",
+    "gulp-util": "^3.0.4",
+    "promise": "^7.0.1",
+    "MD5": "^1.2.1"
+  },
+  "devDependencies": {
+    "MD5": "^1.2.1",
+    "mocha": "^2.1.0",
+    "should": "^5.0.0",
+    "vinyl": "^0.4.6"
+  },
+  "bugs": {
+    "url": "https://github.com/vlobchuk/gulp-s3-replace/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
