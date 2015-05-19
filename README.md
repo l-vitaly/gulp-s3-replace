@@ -34,7 +34,7 @@ gulp.task('s3replace', function(){
 
 ## Api
 
-Uploads the file to Amazon S3 src attribute of the IMG tag and its replacement
+Upload files to Amazon S3 of the IMG, A, LINK and SCRIPT tags and replaces the url.
 
 s3Replace(options)
 
