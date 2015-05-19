@@ -1,7 +1,7 @@
 {
   "name": "gulp-s3-replace",
   "version": "0.1.0",
-  "description": "Loader local image files from img tags on Amazon S3",
+  "description": "Upload files to Amazon S3 of the img tag and replaces the url for gulp 3",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -23,7 +23,6 @@
     "MD5": "^1.2.1"
   },
   "devDependencies": {
-    "MD5": "^1.2.1",
     "mocha": "^2.1.0",
     "should": "^5.0.0",
     "vinyl": "^0.4.6"
