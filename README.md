@@ -1,10 +1,6 @@
 # gulp-s3-replace 
 
-> Upload files to Amazon S3 of the img tag and replaces the url for gulp 3.
-
-## Features
-
-* Uploads the file to Amazon S3 src attribute of the IMG tag and its replacement
+> Upload files to Amazon S3 of the IMG, A, LINK and SCRIPT tags and replaces the url for gulp 3.
 
 ## Usage
 
