@@ -40,8 +40,6 @@ s3Replace(options)
 
 ### gulp-replace options
 
-An optional third argument, `options`, can be passed.
-
 #### options
 Type: `Object`
 
