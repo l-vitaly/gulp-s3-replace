@@ -105,6 +105,10 @@ Your Amazon S3 secret key.
 
 More s3Options options see:[http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Config.html#constructor-property](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Config.html#constructor-property)
 
+## Note
+
+Before uploading files plugin creates a meta file (in the directory specified in options.basePath) the current time, so as not upload files that have not changed. If you want to upload files forcibly remove the meta directory.
+
 ## Testing
 
 ```
