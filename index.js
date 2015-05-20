@@ -1,5 +1,5 @@
 /**
- * Loader local image files from img tags on Amazon S3
+ * Upload files to Amazon S3 of the IMG, A, LINK and SCRIPT tags and replaces the url for gulp 3.
  **/
 
 var through = require('through2'),
