@@ -1,6 +1,6 @@
 {
   "name": "gulp-s3-replace",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Upload files to Amazon S3 of the IMG, A, LINK and SCRIPT tags and replaces the url for gulp 3.",
   "main": "index.js",
   "scripts": {
