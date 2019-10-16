@@ -151,7 +151,8 @@ function createUploadPromise(basePath, bucketName, destOriginalFilePath, s3Clien
       localFile: filePath,
       s3Params: {
         Bucket: bucketName,
-        Key: destFilePath
+        Key: destFilePath,
+        ACL: 'public-read'
       }
     };
     var uploader = s3Client.uploadFile(uploaderParams);
