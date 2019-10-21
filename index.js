@@ -90,7 +90,9 @@ function gulpS3Replace(options) {
         Promise.all(promises).then(function (urls) {
 
           for (var i = 0; i < urls.length; i++) {
-            content = content.replace(urls[i].originalUrl, urls[i].publicUrl);
+            if (!content.includes(urls[i].publicUrl)) {
+              content = content.replace(new RegExp(urls[i].originalUrl, 'g'), urls[i].publicUrl);
+            }
           }
 
           file.contents = new Buffer(content);
